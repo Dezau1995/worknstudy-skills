@@ -10,10 +10,10 @@
 
 JavaScript est un langage dynamique avec des structures de base simples :
 
-Variables : on utilise let ou const pour déclarer des variables. (var est déprécié) Par exemple : let age = 25;.
-Structures conditionnelles : comme if, else, ou switch pour gérer les flux logiques.
-Boucles : for, while et for...of permettent de répéter des instructions.
-Fonctions : elles peuvent être déclarées via function nom() ou comme expressions fléchées : const addition = (a, b) => a + b;.
+- Variables : on utilise let ou const pour déclarer des variables. (var est déprécié) Par exemple : let age = 25;.
+- Structures conditionnelles : comme if, else, ou switch pour gérer les flux logiques.
+- Boucles : for, while et for...of permettent de répéter des instructions.
+- Fonctions : elles peuvent être déclarées via function nom() ou comme expressions fléchées : const addition = (a, b) => a + b;.
 
 
 - les normes `ecmascript` ❌ / ✔️
@@ -21,9 +21,9 @@ Fonctions : elles peuvent être déclarées via function nom() ou comme expressi
 ECMAScript (ES) définit les spécifications du langage JavaScript.
 
 Chaque version (comme ES6, ES7) introduit de nouvelles fonctionnalités, comme :
-ES6 (2015) : flèches (=>), classes (class), modules (import/export), et le mot-clé let et const.
-ES8 (2017) : async/await pour une gestion plus simple de l'asynchrone.
-ES2021 : méthodes comme String.prototype.replaceAll() ou opérateurs logiques comme ??.
+- ES6 (2015) : flèches (=>), classes (class), modules (import/export), et le mot-clé let et const.
+- ES8 (2017) : async/await pour une gestion plus simple de l'asynchrone.
+- ES2021 : méthodes comme String.prototype.replaceAll() ou opérateurs logiques comme ??.
 Ces évolutions garantissent une syntaxe moderne et de meilleures performances.
 
 
@@ -31,11 +31,11 @@ Ces évolutions garantissent une syntaxe moderne et de meilleures performances.
 
 JavaScript est conçu pour gérer l'asynchronisme efficacement, notamment pour des tâches non bloquantes.
 
-Callbacks : fonctions passées en paramètre, mais difficiles à maintenir (callback hell).
-Promises : permettent de gérer des tâches asynchrones proprement avec .then() et .catch().Exemple :
+- Callbacks : fonctions passées en paramètre, mais difficiles à maintenir (callback hell).
+- Promises : permettent de gérer des tâches asynchrones proprement avec .then() et .catch().Exemple :
 fetch('url').then(response => response.json()).catch(error => console.error(error));
 
-Async/Await : une syntaxe simplifiée pour travailler avec des Promises. Exemple :
+- Async/Await : une syntaxe simplifiée pour travailler avec des Promises. Exemple :
 const fetchData = async () => {
   try {
     const response = await fetch('url');
