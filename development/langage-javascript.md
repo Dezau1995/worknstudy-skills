@@ -7,6 +7,7 @@
 ## 🎓 J'ai compris et je peux expliquer
 
 - les `structures` de base du langage ❌ / ✔️
+
 JavaScript est un langage dynamique avec des structures de base simples :
 
 Variables : on utilise let ou const pour déclarer des variables. (var est déprécié) Par exemple : let age = 25;.
@@ -16,6 +17,7 @@ Fonctions : elles peuvent être déclarées via function nom() ou comme expressi
 
 
 - les normes `ecmascript` ❌ / ✔️
+
 ECMAScript (ES) définit les spécifications du langage JavaScript.
 
 Chaque version (comme ES6, ES7) introduit de nouvelles fonctionnalités, comme :
@@ -26,6 +28,7 @@ Ces évolutions garantissent une syntaxe moderne et de meilleures performances.
 
 
 - l'utilisation de l'`asynchrone` ❌ / ✔️
+
 JavaScript est conçu pour gérer l'asynchronisme efficacement, notamment pour des tâches non bloquantes.
 
 Callbacks : fonctions passées en paramètre, mais difficiles à maintenir (callback hell).
@@ -45,6 +48,7 @@ const fetchData = async () => {
 
 
 - les spécifités du mot-clef `this` ❌ / ✔️
+
 Le mot-clé this en JavaScript fait référence au contexte d'exécution de la fonction. Sa signification varie :
 
 Dans un objet : this fait référence à l'objet parent.
@@ -69,13 +73,13 @@ const arrow = () => console.log(this); // hérite de `this` du parent
 
 ### Utilisation dans un projet ❌ / ✔️
 
-[lien github](...)
+[[lien github]([...](https://github.com/Dezau1995/Soundwave))]
 
 Description :
 
 ### J'ai utilisé ce langage en production ❌ / ✔️
 
-[lien du projet](...)
+[lien du projet]([...](https://github.com/Dezau1995/Soundwave))
 
 Description :
 
