@@ -77,13 +77,13 @@ const arrow = () => console.log(this); // hérite de `this` du parent
 
 ### Utilisation dans un projet ❌ / ✔️
 
-[[lien github]([...](https://github.com/Dezau1995/Soundwave))]
+[https://github.com/Dezau1995/Soundwave]
 
 Description :
 
 ### J'ai utilisé ce langage en production ❌ / ✔️
 
-[lien du projet]([...](https://github.com/Dezau1995/Soundwave))
+[(https://github.com/Dezau1995/Soundwave)]
 
 Description :
 
