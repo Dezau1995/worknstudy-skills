@@ -6,7 +6,7 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- les `structures` de base du langage ❌ / ✔️
+### les `structures` de base du langage ❌ / ✔️
 
 JavaScript est un langage dynamique avec des structures de base simples :
 
@@ -16,7 +16,7 @@ JavaScript est un langage dynamique avec des structures de base simples :
 - Fonctions : elles peuvent être déclarées via function nom() ou comme expressions fléchées : const addition = (a, b) => a + b;.
 
 
-- les normes `ecmascript` ❌ / ✔️
+### les normes `ecmascript` ❌ / ✔️
 
 ECMAScript (ES) définit les spécifications du langage JavaScript.
 
@@ -27,7 +27,7 @@ Chaque version (comme ES6, ES7) introduit de nouvelles fonctionnalités, comme :
 Ces évolutions garantissent une syntaxe moderne et de meilleures performances.
 
 
-- l'utilisation de l'`asynchrone` ❌ / ✔️
+### l'utilisation de l'`asynchrone` ❌ / ✔️
 
 JavaScript est conçu pour gérer l'asynchronisme efficacement, notamment pour des tâches non bloquantes.
 
@@ -37,25 +37,36 @@ fetch('url').then(response => response.json()).catch(error => console.error(erro
 
 - Async/Await : une syntaxe simplifiée pour travailler avec des Promises. Exemple :
 const fetchData = async () => {
+
   try {
+  
     const response = await fetch('url');
+  
     const data = await response.json();
+  
     console.log(data);
+  
   } catch (error) {
+  
     console.error(error);
+  
   }
 };
 
 
-- les spécifités du mot-clef `this` ❌ / ✔️
+### les spécifités du mot-clef `this` ❌ / ✔️
 
 Le mot-clé this en JavaScript fait référence au contexte d'exécution de la fonction. Sa signification varie :
 
 Dans un objet : this fait référence à l'objet parent.
 const obj = {
+
   nom: 'Alice',
+  
   afficheNom() {
+  
     console.log(this.nom); // 'Alice'
+    
   }
 };
 Dans une fonction classique : dépend de son invocation, souvent undefined en mode strict.
