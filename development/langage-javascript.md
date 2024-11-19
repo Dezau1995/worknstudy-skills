@@ -38,22 +38,15 @@ fetch('url').then(response => response.json()).catch(error => console.error(erro
 
 - Async/Await : une syntaxe simplifiée pour travailler avec des Promises. Exemple :
 
-const fetchData = async () => {
-
+`const fetchData = async () => {
   try {
-  
     const response = await fetch('url');
-  
     const data = await response.json();
-  
     console.log(data);
-  
   } catch (error) {
-  
     console.error(error);
-  
   }
-};
+};`
 
 
 ### les spécifités du mot-clef `this` ❌ / ✔️
@@ -62,16 +55,13 @@ Le mot-clé this en JavaScript fait référence au contexte d'exécution de la f
 
 Dans un objet : this fait référence à l'objet parent.
 
-const obj = {
-
+`const obj = {
   nom: 'Alice',
-  
   afficheNom() {
-  
     console.log(this.nom); // 'Alice'
-    
   }
-};
+};`
+
 Dans une fonction classique : dépend de son invocation, souvent undefined en mode strict.
 Dans une fonction fléchée : this est lexical et ne change pas de contexte.
 const arrow = () => console.log(this); // hérite de `this` du parent
