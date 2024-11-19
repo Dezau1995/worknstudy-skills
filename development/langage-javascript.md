@@ -33,9 +33,11 @@ JavaScript est conçu pour gérer l'asynchronisme efficacement, notamment pour d
 
 - Callbacks : fonctions passées en paramètre, mais difficiles à maintenir (callback hell).
 - Promises : permettent de gérer des tâches asynchrones proprement avec .then() et .catch().Exemple :
+
 fetch('url').then(response => response.json()).catch(error => console.error(error));
 
 - Async/Await : une syntaxe simplifiée pour travailler avec des Promises. Exemple :
+
 const fetchData = async () => {
 
   try {
@@ -59,6 +61,7 @@ const fetchData = async () => {
 Le mot-clé this en JavaScript fait référence au contexte d'exécution de la fonction. Sa signification varie :
 
 Dans un objet : this fait référence à l'objet parent.
+
 const obj = {
 
   nom: 'Alice',
